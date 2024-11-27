@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+set -e
+
+CC="${CC:-gcc}"
+TARGET_DIR="${TARGET_DIR:-build}"
+
+rm -fr "${TARGET_DIR}"
+
+set -x
+
+mkdir -p "${TARGET_DIR}"
+"${CC}" src/netns-exec.c -o "${TARGET_DIR}/netns-exec" $@
