@@ -1,3 +1,7 @@
+> **Archival notice**
+>
+> This project is moved to https://github.com/5GameMaker/suid-wrappers
+
 # netns-exec
 
 No, not the actual [netns-exec](https://github.com/pekman/netns-exec). This is an
